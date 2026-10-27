@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-27T10:38:00.733846+00:00",
+  "url": "https://gridpulse-50047201220.development.catalystappsail.in",
+  "build": "2026-10-27-final1",
+  "passed": true,
+  "checks": {
+    "quickml_backend": true,
+    "24_predictions": true,
+    "finite_nonnegative_predictions": true,
+    "timestamps_preserved": true,
+    "dispatch_rules": true,
+    "overload_rules": true
+  },
+  "summary": {
+    "peak_demand_kw": 255.57997132820887,
+    "average_demand_kw": 190.24548996730266,
+    "total_demand_kwh": 4565.891759215264,
+    "storage_hours": 16,
+    "critical_hours": 15,
+    "battery_shortfall_hours": 9,
+    "unserved_energy_kwh": 1989.861,
+    "final_soc_pct": 20.0
+  },
+  "input_source": "Historical sample weather, 2015-06-17. No hidden-test labels were supplied."
+}

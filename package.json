@@ -1,0 +1,1 @@
+{"name":"gridpulse-local-preview","version":"1.0.0","private":true,"scripts":{"dev":"\"${CODEX_PRIMARY_RUNTIME_PYTHON:-python3}\" app.py"}}

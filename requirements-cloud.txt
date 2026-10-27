@@ -1,0 +1,3 @@
+# No local sklearn model is used in QuickML mode.
+numpy==2.3.5
+pandas==2.2.3

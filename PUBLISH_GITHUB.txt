@@ -1,0 +1,24 @@
+Publish the prepared 15-commit repository
+
+1. Create an EMPTY PUBLIC repository named GridPulse under prashant-7-8-7.
+   Do not initialize it with a README, license or .gitignore.
+
+2. Extract the GitHub-ready archive into C:\GridPulse-GitHub.
+   That folder must directly contain README.md and the .git directory.
+
+3. In PowerShell run:
+
+   git -C "C:\GridPulse-GitHub" push -u origin main
+   git -C "C:\GridPulse-GitHub" rev-list --count main
+
+   The count must be 15. Git may ask you to sign in using its normal browser flow.
+
+4. Open https://github.com/prashant-7-8-7/GridPulse and verify that the README,
+   source, presentation and 15 commits are visible. Submit that repository URL.
+
+If the repository was initialized with an extra commit, stop and use a genuinely
+empty repository. Do not force-push over unrelated or existing work.
+
+All 15 commits organize the current project into meaningful feature groups.
+They use current dates and do not claim historical development dates.
+The archive and Git history exclude .env, tokens and serialized local models.
